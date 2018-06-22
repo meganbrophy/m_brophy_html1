@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Baia Resturant</title>
+	<meta charset="utf-8">
+	<link href="css/styles.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<a class="button" href="#">&#9650;</a>
+
+	<section class="rock">
+		<nav>
+			<ul id="drop-nav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="#">Menu</a>
+					<ul>
+						<li>
+							<a href="#">Main menu</a>
+						</li>
+						<li>
+							<a href="#">Set Menu</a>
+						</li>
+						<li>
+							<a href="#">Wine list</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Gallery</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav><img class="to-top" src="img/logo.gif">
+	</section>
+	<main>
+		<section class="data">
+			<article class="duff">
+				<h1>Contact Us</h1>
+				<p>Cape Town • Tel: 021 421-0935/6/7 • Fax: 021 421-0933 • Email: baiarestaurant@wol.co.za</p>
+				<p>Trading Hours: Lunch: 12h00 - 15h30; Dinner: 18h30 - 22h30 • Wheelchair access</p>	
+			</article>
+			<section class="duff2">
+				<h2>We do Special Functions and Events</h2>
+				<p>We Specialise in bringing your dreams to life, we have private rooms available for hire.</p>
+				<p>We also asist in romantic private dining for couples.</p>
+			</section>
+			<section class="duff3">
+				<h3>Contact our Events Manager Josh Diedricks:</h3>
+				<p>Tel: 021 421-0935/4 • Fax: 021 421-0933 • Email: baiaevents@wol.co.za</p>
+				<h3>Follow Us</h3>
+				<p>Facebook: Baia Seafood Resturant , Instagram: @baiaresturant (@baia_news) and Twitter: Baia SA (@BAIARESTURANT_SA)</p>
+				<p>We keep our social media upto date with the latest weekly specials and events</p>
+			</section>
+			<article class="lay5">
+				<h1>Map</h1>
+				<h3>Directions and Reviews</h3>
+				<div id="map">
+					<iframe allowfullscreen frameborder="0" height="650" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13245.81742079006!2d18.4214813!3d-33.903704!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd598ce16eaa53d!2sBaia+Seafood+Restaurant!5e0!3m2!1sen!2sza!4v1529620435398" style="border:0" width="100%"></iframe>
+				</div>
+			</article>
+			<article class="lay5">
+				<h1>Make a Reservation</h1>
+				<p>Cape Town • Tel: 021 421-0935/6/7 • Fax: 021 421-0933 • Email: baiarestaurant@wol.co.za</p>
+			</article>
+			<form action="contact.php" method="post">
+				<fieldset>
+					<ul class="form-style-1">
+						<li><label>Full Name</label> <input class="field-divided" name="firstName" placeholder="First Name" required="" type="text"> &nbsp; <input class="field-divided" name="surname" placeholder="Surname" required="" type="text"> &nbsp;</li>
+						<li style="list-style: none; display: inline">
+							<form action="">
+								<ul>
+									<li><label>email</label> <input class="field-long" name="email" placeholder="email address" required="" type="email"> <label>telephone number</label> <input class="field-long" name="telephone number" placeholder="telephone number" required="" type="telephone"></li>
+									<li><label>Type of Reservation</label> <select class="field-select" name="subject">
+										<option value="complaint">
+											General Reservation
+										</option>
+										<option value="goodNews">
+											Small Function
+										</option>
+										<option value="general">
+											Large Event
+										</option>
+									</select></li>
+									<li><label>Special Requirements</label> 
+									<textarea class="field-long field-textarea" name="message"></textarea></li>
+									<li style="list-style: none; display: inline">
+										<fieldset>
+											<label>I would like Confirmation of Reservation Via</label>
+											<div>
+												<input checked id="email" name="email" type="checkbox" value="email"> <label for="email">Email</label>
+											</div>
+											<div>
+												<input id="sms" name="contact" type="checkbox" value="sms"> <label for="sms">SMS</label>
+											</div>
+										</fieldset>
+									</li>
+									<li><input name="Send" type="submit"></li>
+								</ul>
+							</form>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Upstairs at the Victoria Wharf, V&amp;A Waterfront, pen for lunch and dinner daily as well as light terrace lunches.</p>
+		<p>Cape Town • Tel: 021 421-0935/6/7 • Fax: 021 421-0933 • Email: baiarestaurant@wol.co.za Fully licensed</p>
+		<p>© Baía Seafood Restaurant 2009. All rights reserved.</p>
+	</footer>
+</body>
+</html>
