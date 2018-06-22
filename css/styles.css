@@ -75,6 +75,12 @@
 	top: 210px;
 	opacity: 0.5;
 }
+
+.to-drop {
+	position: relative;
+	top: 110px;
+	opacity: 0.5;
+}
 .top {
 	background-image: url("../img/plate.jpg");
 	background-size: cover;
@@ -93,9 +99,9 @@
 }
 .rock {
 	background-image: url("../img/baking.jpg");
-	background-size: relative;
+	background-size: cover;
 	background-position: center;
-	padding: 50px;
+	padding: 100px;
 	height: 70vh;
 	position: relative;
 }
